@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'kino01'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_595A7BAF500D4621841A357228DFBC28 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9A317BD590B341A2A8026C3005A7A3B3 }}
           package: .
