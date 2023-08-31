@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'authgoogle01'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C7A8F8B52CFA44A39AA6E34F27CFBCEA }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8B09D2D237B64055968492B786AFBA15 }}
           package: .
