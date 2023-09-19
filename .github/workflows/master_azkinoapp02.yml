@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'azkinoapp02'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2DAA19A0800948E39A92FA2660AEE32A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A13A93B34C984120ACBEF6306581552A }}
           package: .
