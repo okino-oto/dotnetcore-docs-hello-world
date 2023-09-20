@@ -9,7 +9,7 @@ public class PrivacyModel : PageModel
 
     public PrivacyModel(ILogger<PrivacyModel> logger)
     {
-        _logger = logge;
+        _logger = logger;
     }
 
     public void OnGet()
