@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace netcoresample.Pages;
+namespace dotnetcoresample.Pages;
 
 public class PrivacyModel : PageModel
 {
@@ -9,7 +9,7 @@ public class PrivacyModel : PageModel
 
     public PrivacyModel(ILogger<PrivacyModel> logger)
     {
-        _logger = logger;
+        _logger = logge;
     }
 
     public void OnGet()
